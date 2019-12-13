@@ -17,7 +17,6 @@ import time
 class VixCci:
 
     # CM_Williams_Vix_Fix and Vix_Fix_inverse
-    #upper/lowerBand:wvfのボリンジャーバンド
     #rangeHigh/Low:lb期間のwvf最大値
     def vixfix(self, close, low, high, period = 18,bbl = 20, mult = 0.5,lb = 50,ph = 0.85, pl=1.01):
         print('VixFix')
